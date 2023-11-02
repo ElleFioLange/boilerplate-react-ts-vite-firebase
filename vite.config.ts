@@ -1,8 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tsConfigPaths from "vite-tsconfig-paths";
-import vpl from "vite-plugin-linter";
 import svgrPlugin from "vite-plugin-svgr";
+import vpl from "vite-plugin-linter";
 
 const { EsLinter, linterPlugin } = vpl;
 
